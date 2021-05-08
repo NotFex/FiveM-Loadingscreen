@@ -2,7 +2,7 @@
 
 ## Introduction
 
-> This Loadingscreen is features the following:
+> This Loadingscreen features the following:
 >> Youtube Video-Stream as Backround
 >>
 >> Easy Music integration

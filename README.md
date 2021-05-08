@@ -13,11 +13,6 @@
 >>
 >> Joining Progressbar
 
-
-## Code Samples
-
-
-
 ## Installation
 
-> Will add a Video soon^^
+> Will add a Video soon^^ - everything is included.

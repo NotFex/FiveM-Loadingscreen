@@ -1,0 +1,108 @@
+/*
+* Imports Fonts:
+* - Uses GoogleFonts | Lobster
+*/
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+body { /* Sets every Text element inside our HTML Body to our Font defined. */
+    font-family: 'Lobster', cursive;
+    background-color: black;
+}
+
+/* Centering */
+.external {
+    display: table;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+.middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+.internal {
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+
+/*Text, RGB Animations and Stuff...*/
+.name {
+    margin-top: 5px;
+    font-size: 64px;
+    color: gold;
+    text-shadow: -2px -2px 1px black;
+
+}
+@keyframes borderAnimation {
+    0%   {border-top: 5px red solid;}
+    25%  {border-top: 5px green solid;}
+    50%  {border-top: 5px blue solid;}
+    100%  {border-top: 5px red solid;}
+}
+.servername {
+    animation-name: borderAnimation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    
+    background-color: rgba(82, 81, 81, 0.534);
+
+    border-bottom: 2px goldenrod groove;
+
+    border-radius: 10px;
+    width: 360px;
+    height: 110px;
+
+    text-align: center;
+    box-shadow: 5px 5px 10px black;
+}
+.servernote {
+    margin-top: 10px;
+    color: white;
+    font-size: 24px;
+    text-shadow: 2px 2px 5px black;
+}
+
+/*Pause music*/
+
+
+
+/* Loadbar */
+.loadbar {
+    border-radius: 5px;
+    width: 360px;
+    background-color: #eee;
+    height: 20px;
+
+
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    overflow: hidden;
+
+    position: absolute;
+    display: block;
+    box-shadow: 2px 2px 5px black;
+
+}
+.progressBar {
+    width: 10%;
+    background-color:  #ff0066;
+    height: 20px;
+
+    position: absolute;
+    left: 10%;
+}
+
+.muteUnmute {
+    margin-top: 25px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.281);
+}
+
+/* Video */
+.bgvid {
+    filter: blur(10px);
+}

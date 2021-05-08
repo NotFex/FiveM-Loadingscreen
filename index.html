@@ -1,0 +1,77 @@
+<!---
+Copyright:
+Distributing this work is not allowed, if you found this work on 3rd Party Downloadservern, contact me:
+Copyright: 
+Felix Burwitz
+Felix.Burwitzprivat@gmail.com | <- Contact.
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"> 
+        <!--===================-->
+        <!-- Stylesheet -->
+        <link rel="stylesheet" href="css/style.css"> 
+        <!--===================-->
+        <!--Typewriter Javascript-->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/TypewriterJS/1.0.0/typewriter.min.js"></script> 
+        <!--===================-->
+        <!--The Title will not Display.-->
+        <title>FiveM Loadingscreen | By NotFex </title>
+    </head>
+    <body>
+        <!-- Fullscreen BG Video -->
+        <div class="bgvid" style="position: fixed; z-index: -99; width: 100%; height: 100%">
+            <iframe frameborder="0" height="100%" width="100%"
+            src="https://youtube.com/embed/Wqsg2vWHZBM?autoplay=1&controls=0&showinfo=0&autohide=1&mute=1&loop=1">
+            </iframe> <!-- Change the ID (after [...]embed/<ID>?[...])-->
+        </div>
+        <!--===================-->
+        <!--Main Content-->
+        <div class="external">
+            <div class="middle">
+                <div class="internal">
+                    <div class="servername">
+                        <p class="name">
+                            SimpleV
+                        </p>
+                        <div id="app" class="servernote"></div>
+                        <div class="loadbar">
+                            <div class="progressBar"></div>
+                        </div>
+                        <img src="https://i.ibb.co/NK78mvV/unmuted.png" id="simg" width="32px" height="32px" class="muteUnmute"> 
+                    </div>     
+                </div>
+            </div>
+        </div>
+        <!--===================-->
+        <!--Audioplayer & ParticleJS-->
+        <audio autoplay id="audioPlayer">
+            <source src="song.mp3" type="audio/mpeg">
+        </audio>
+        <div id="particles-js"></div>
+        <!--===================-->
+
+
+
+        <!--Javascript Includes-->
+        <!-- Particle JS-->
+        <script type="text/javascript" src="js/particles.min.js"></script>
+        <!--===================-->
+        <!--Particle JS - Config-->
+        <script src="js/app.js"></script> 
+        <!--===================-->
+        <!--Typewriter JS - Config-->
+        <script src="js/typewriter.js"></script> 
+        <!--===================-->
+        <!--Audiotoggler-->
+        <script src="js/audio.js"></script>
+        <!--===================-->
+        <!--Progressbar - FiveM Integration-->
+        <script src="js/loading.js"></script> 
+        <!--===================-->
+    </body>
+</html>

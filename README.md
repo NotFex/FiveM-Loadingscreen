@@ -14,7 +14,8 @@
 >> Joining Progressbar
 
 ## Preview:
-![](https://imgur.com/a/aAZcESR)
+Version 1; 
+![](https://i.ibb.co/3mwtFdr/grafik.png)
 ## Installation
 
 > Will add a Video soon^^ - everything is included.
